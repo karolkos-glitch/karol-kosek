@@ -1,11 +1,12 @@
 import React from 'react'
 import { Root } from './ProjectsSection.styles'
+import { Paragraph } from 'styles/shared';
 
 const ProjectsSection = () => {
   return (
     <Root>
           <h2>Projects</h2>
-          <h3>Here are some apps I made I'm especially proud off: </h3>
+          <Paragraph>Here are some apps I made I am especially proud off: </Paragraph>
           <ul>
             <li>
               <h4>Cichociemni41-44</h4>

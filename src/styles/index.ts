@@ -13,16 +13,16 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-family: Lato;
-    background: #333;
-    color: #fefefe;
+    background: #fefefe;
+    color: #333;
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   h3 {
@@ -35,12 +35,8 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const Root = styled.main`
-  display: grid;
-
-  @media (min-width: 768px) {
-    height: 100vh;
-    grid-template-areas: 
-      "heading heading"
-      "description projects"
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 `

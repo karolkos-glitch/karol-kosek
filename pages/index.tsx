@@ -3,22 +3,22 @@ import Head from 'next/head'
 import { Root, GlobalStyles } from 'styles';
 import HeadingSection from 'components/HeadingSection';
 import DescriptionSection from 'components/DescriptionSection';
-import ProjectsSection from 'components/ProjectsSection';
+import ContactInfo from 'components/ContactInfo';
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
         <title>KAROL KOSEK</title>
-        <meta name="description" content="Portfolio page for Karol Kosek - the Front End developer" />
+        <meta name="description" content="Portfolio page of Karol Kosek - a Front End developer based in Kraków, Poland" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyles />
       <Root>
         <HeadingSection />
         <DescriptionSection />
-        <ProjectsSection />
-      </Root>
+        <ContactInfo />
+      </Root> 
     </>
   )
 }

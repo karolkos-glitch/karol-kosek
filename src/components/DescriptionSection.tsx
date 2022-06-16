@@ -1,11 +1,13 @@
-import { Root } from "./DescriptionsSection.styles"
+import { Paragraph } from 'styles/shared';
 
 const DescriptionSection = () => {
   return (
-    <Root>
-      <h2>Hi, I make websites.</h2>
-      <p>Most of them are in React. I work as a Front End developer. Located in Cracow, Poland</p>
-    </Root>
+    <Paragraph fontSize="xl">
+        Hi, I am a web developer based in Kraków, Poland<br/>
+        Working mostly in React.js<br/>
+        Using the best tools that are available at the moment<br/>
+        Not afraid to fight for the best positioning of your website at Google
+    </Paragraph>
   )
 }
 
