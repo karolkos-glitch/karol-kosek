@@ -1,11 +1,11 @@
-import { Root } from "./HeadingSection.styles"
+import { Root, Surname } from "./HeadingSection.styles"
 
 const HeadingSection = () => {
   return (
     <Root>
         <h1>
-          KAROL KOSEK,<br/>
-          FRONT END DEVELOPER
+          KAROL <br/>
+          <Surname>KOSEK</Surname>
         </h1>
     </Root>
   )

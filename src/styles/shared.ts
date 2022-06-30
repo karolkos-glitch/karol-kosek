@@ -17,7 +17,7 @@ export const Paragraph = styled.p<ParagraphProps>`
   margin: 0.5rem 0;
   line-height: 1;
   text-align: left;
-  font-size: ${({ fontSize }) => fontSizeOptions[fontSize ?? 'md']};
+  font-size: 18px;
 `
 
 export const flexDefault = css`

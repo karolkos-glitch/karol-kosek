@@ -1,10 +1,16 @@
 import { Paragraph } from "styles/shared"
+import { Root, ContactButton} from './ContactInfo.styles'
 
 const ContactInfo = () => {
   return (
-    <Paragraph fontSize="lg">
-      Interested? Contact me
-    </Paragraph>
+    <Root>
+      <Paragraph fontSize="lg">
+        Interested in cooperation?
+      </Paragraph>
+    <ContactButton>
+      Contact me
+    </ContactButton>
+    </Root>
   )
 }
 

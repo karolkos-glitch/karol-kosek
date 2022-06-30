@@ -1,0 +1,1 @@
+export { useAcceptCookies as default } from './useAcceptCookies';

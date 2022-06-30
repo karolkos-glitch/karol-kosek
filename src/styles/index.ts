@@ -12,31 +12,18 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: Lato;
-    background: #fefefe;
-    color: #333;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  h4 {
-    font-size: 0.8rem;
+    font-family: helvetica;
+    background: #000;
+    color: #fff;
   }
 `;
 
 export const Root = styled.main`
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
+  justify-content: center;
+  gap: 100px;
 `
