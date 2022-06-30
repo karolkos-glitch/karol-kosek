@@ -5,6 +5,9 @@ import HeadingSection from 'components/HeadingSection';
 import DescriptionSection from 'components/DescriptionSection';
 import ContactInfo from 'components/ContactInfo';
 
+// https://github.com/styled-components/styled-components/issues/3738
+const GlobalStyleProxy: any = GlobalStyles;
+
 const Home: NextPage = () => {
   return (
     <>
@@ -13,7 +16,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Portfolio page of Karol Kosek - a Front End developer based in Kraków, Poland" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <GlobalStyles />
+      <GlobalStyleProxy />
       <Root>
         <HeadingSection />
         <DescriptionSection />
