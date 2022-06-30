@@ -19,11 +19,18 @@ export const Root = styled.section`
 `;
 
 export const ContactButton = styled.button`
-  border: 2px solid #FC6E6E;
+  border: 2px solid #e4cb58;
   width: fit-content;
   background-color: #000;
-  color: #FC6E6E;
+  color: #e4cb58;
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 15px;
+  transition: 0.25s;
+
+  :hover, :focus {
+    box-shadow: inset 0 -3.25em 0 0 #8fc866;
+    border-color: #8fc866;
+    color: #fff;
+  }
 `
